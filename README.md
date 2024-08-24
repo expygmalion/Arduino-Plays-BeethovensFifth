@@ -7,20 +7,28 @@ I made the arduino play Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio (
 
 ## Key Details:
 
+Consider the music sheet:
+![MusicSheet]([https://example.com/logo.png](https://www.poppianohk.org/sheetjpg/29810.png))
+
+
 - Tempo Marking: "Allegro con brio" with ♩=108, which translates to a quarter note duration of approximately 556 ms.
-- 
+
 - Time Signature: 2/4, making each measure last about 1112 ms. (60000 ms / 108 = 555.56 ms).
 
 ## Frequencies Used:
 
-G3: 196 Hz
-Ab3: 208 Hz
-Bb3: 233 Hz
-C4: 261 Hz
-D4: 293 Hz
-Eb4: 311 Hz
-F4: 349 Hz
-G4: 392 Hz
-Code Functionality: The code plays a sequence of notes, using different durations to approximate the musical structure. Each note’s frequency and duration are specified to create an accurate representation of the piece. Short pauses are added between notes to improve the sound quality.
+- G3: 196 Hz
+- Ab3: 208 Hz
+- Bb3: 233 Hz
+- C4: 261 Hz
+- D4: 293 Hz
+- Eb4: 311 Hz
+- F4: 349 Hz
+- G4: 392 Hz
 
-Feel free to explore and modify the code to experiment with different segments or to fine-tune the musical output!
+---
+
+## Code Functionality: 
+
+The code plays a sequence of notes, using different durations to approximate the musical structure. Each note’s frequency and duration are specified to create an accurate representation of the piece. Short pauses are added between notes to improve the sound quality.
+[^1]: Feel free to explore and modify the code to experiment with different segments or to fine-tune the musical output, for me, it was quite the deafening produce, i'm sure my music teacher along with the entire musical heritage are cursing me for doing this. 
