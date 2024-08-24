@@ -7,7 +7,7 @@ I made the arduino play Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio (
 
 ## Key Details:
 
-Consider the music sheet:
+Consider the music sheet: [MusicSheet](https://github.com/expygmalion/Arduino-Plays-BeethovensFifth/blob/master/SymphonieV.png)
 
 
 
@@ -25,6 +25,16 @@ Consider the music sheet:
 - Eb4: 311 Hz
 - F4: 349 Hz
 - G4: 392 Hz
+    ## Frequencies mapped as: 
+```cpp
+const int freqG3 = 196;    // G3
+const int freqAb3 = 208;   // Ab3
+const int freqBb3 = 233;   // Bb3
+const int freqC4 = 261;    // C4
+const int freqD4 = 293;    // D4
+const int freqEb4 = 311;   // Eb4
+const int freqF4 = 349;    // F4
+const int freqG4 = 392;    // G4
 
 ---
 
