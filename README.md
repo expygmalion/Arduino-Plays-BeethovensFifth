@@ -35,8 +35,7 @@ const int freqD4 = 293;    // D4
 const int freqEb4 = 311;   // Eb4
 const int freqF4 = 349;    // F4
 const int freqG4 = 392;    // G4
-
----
+```
 
 ## Code Functionality: 
 
