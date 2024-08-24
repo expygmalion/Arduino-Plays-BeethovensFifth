@@ -8,7 +8,7 @@ I made the arduino play Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio (
 ## Key Details:
 
 Consider the music sheet:
-![MusicSheet]([https://example.com/logo.png](https://www.poppianohk.org/sheetjpg/29810.png))
+
 
 
 - Tempo Marking: "Allegro con brio" with ♩=108, which translates to a quarter note duration of approximately 556 ms.
